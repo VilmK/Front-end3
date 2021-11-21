@@ -1,0 +1,224 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+a{
+    text-decoration: none;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; 
+}
+.header-bg-img{
+background-image: url("../4\ praktinis\ darbas.Didelio\ tinklapio\ maketas/IMGheaderbackground.jpg");
+background-color: RGB(141,203,242);
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    flex-basis: 450px;
+    padding: 10px;
+    flex-grow: 1;
+    color: white;
+    margin: 50px;
+}
+ nav a{
+    color:white;
+}
+nav ul li{
+    display: inline-block;
+        }
+nav li{
+            padding: 3px;
+        }
+
+.content {
+    color: white;
+    padding: 150px 50px;
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+    padding: 15px;
+}
+
+header p{
+    padding-bottom: 25px;
+}
+.content a{
+    color:white;
+    background-color: #967c0b;
+    border-radius: 10px;
+    padding:10px;
+    }
+/*main*/
+.main1pastraipa{
+background-color: white;
+background-position: center; 
+color: black;
+text-align: center;
+padding: 70px;;
+}
+
+.main1pastraipa p{
+    padding:30px;
+}
+h2{
+    font-size: 2em;
+    }
+article hr{
+   border-top: 1px solid #967c0b;
+   width: 30%;
+   text-align: center;
+}
+
+.box1{
+    flex-basis: 700px;
+    background-image: url(IMG1.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    height: 300px;
+    margin: 10px;
+    margin-left: 0px;
+    
+}
+.box2{
+    flex-basis: 700px;
+    background-image: url(IMG2.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-grow: 3;
+    height: 300px;
+    margin: 10px;
+    margin-right: 0px;
+}
+
+.box3{
+    flex-basis: 700px;
+    background-image: url(IMG3.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    height: 300px;
+    margin: 10px;
+    margin-left: 0px;  
+}
+.box4{
+    flex-basis: 700px;
+    background-image: url(IMG4.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    height: 300px;
+    margin: 10px;
+    margin-right: 0px;
+}
+
+.main2pastraipa{
+    background-color: rgb(241, 234, 234);
+      color: black;
+      text-align: center;
+    padding: 70px;
+    }
+    
+    .main2pastraipa p{ 
+        padding: 30px;
+        text-align: center;
+    }
+    h2{
+        font-size: 2em;
+        padding: 25px; 
+    }
+
+    .main2-sarasas ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    }
+
+    .main2-sarasas ul li i{
+        color: #967c0b;
+}
+
+.main3pastraipa{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 70px;
+    }
+
+    .main3pastraipa p{
+        padding: 10px;
+    }
+
+    .main4pastraipa{
+        background-color: rgb(241, 234, 234);
+          background-position: center; 
+          color: black;
+          text-align: center;
+          padding: 70px;;
+        }
+        .main4pastraipa p{
+            padding: 15px;
+        }
+
+        .email{
+            padding:20px;
+            font-size: 2em;    
+        }
+        .submit{
+            background-color:#967c0b;
+            color: white;
+            border-radius: 10%;
+        }
+
+        /*footer*/
+
+footer{ 
+    background-color: #232440;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+        
+footer ul li{
+            display: inline-block;
+        }  
+        
+footer ul li i{
+            color:white;
+            padding: 15px;
+        } 
+        footer p{
+        padding: 10px;
+        }
+
+        @media (max-width: 1200px) {
+            .box{
+                text-align: center;
+            }
+        }
+            
